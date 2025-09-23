@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Alex Johnson
+title: Edwin Pohl
 
 # Name pronunciation (optional)
 name_pronunciation: ''
