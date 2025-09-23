@@ -48,10 +48,11 @@ profiles:
     url: https://orcid.org/0000-0002-1825-0097
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - Geographical Information Systems (GIS)
+  - Data Analysis
+  - Spatial Modelling
+  - Machine Learning
+  - Interface between nature and technology
 
 education:
   - area: PhD Computer Science (AI Focus)
