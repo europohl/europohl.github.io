@@ -14,7 +14,7 @@ pronouns: he/him
 
 # Status emoji
 status:
-  icon: 🚀
+  icon: 🌱
 
 # Is this the primary user of the site?
 superuser: true
@@ -32,6 +32,16 @@ organizations:
   - name: Lincoln University New Zealand
     url: https://www.lincoln.ac.nz/
 
+# Short bio for the left-hand sidebar
+bio: |
+  My name is Edwin Pohl, but feel free to call me Edwin. I'm a Master's student in Natural Resource Management and Ecological Engineering, powered by curiosity about the interface between nature and technology.
+  
+  On this site, you'll find a mix of my GIS projects, snapshots from field adventures, and environmental solutions I'm working on, mostly in Python and R, sometimes with QGIS.
+  
+  You can explore everything chronologically or jump straight to the sections on [GIS projects](/tag/gis/), [research](/tag/research/), or [fieldwork](/tag/fieldwork/), whatever suits your curiosity. Below, you'll find my experience, recent projects, and skills.
+  
+  Download my [CV](/uploads/cv_pohl.pdf).
+
 # Social network links
 profiles:
   - icon: at-symbol
@@ -39,15 +49,34 @@ profiles:
     label: E-mail Me
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/edwin-pohl-88a789325/
+  - icon: brands/github
+    url: https://github.com/eddimurphi
+  - icon: phone
+    url: 'tel:+4367878234567'
+    label: '+43 678 7823457'
+
+# Featured sections (similar to Edo's portfolio sections)
+featured_sections:
+  - title: "GIS & Data Analysis Portfolio"
+    description: "Explore my spatial analysis projects →"
+    url: "/post/gis-portfolio/"
+    icon: "map"
+  - title: "Environmental Projects"
+    description: "Natural resource management solutions →"  
+    url: "/post/env-projects/"
+    icon: "leaf"
+  - title: "Field Photography"
+    description: "Nature and landscape documentation →"
+    url: "https://edwin-fieldwork.myportfolio.com"
+    icon: "camera"
 
 interests:
   - Geographical Information Systems (GIS)
-  - Data Analysis and Modeling
+  - Data Analysis and Spatial Modeling
   - Natural Resource Management
   - Ecological Engineering
-  - Environmental Solutions
-  - Database Administration
-  - Outdoor Adventures and Sports
+  - Environmental Database Management
+  - Outdoor Adventures and Climbing
 
 education:
   - area: MSc Natural Resource Management and Ecological Engineering
@@ -55,20 +84,23 @@ education:
     date_start: 2023-10-01
     date_end: ''
     summary: |
-      Currently pursuing joint Master's degree focusing on environmental challenges and innovative solutions.
-      Specialized in GIS applications and ecological engineering approaches.
+      Currently pursuing joint Master's degree focusing on environmental challenges and innovative GIS solutions.
+      Specialized in spatial modeling and ecological engineering approaches.
+      
   - area: Bachelor of Natural Resource Management
     institution: Martin Luther University Halle
     date_start: 2018-09-01
     date_end: 2023-07-31
     summary: |
       Comprehensive education in natural resource management with focus on sustainable practices and environmental stewardship.
+      Thesis on spatial analysis of forest biodiversity.
+      
   - area: Secondary School (Abitur)
     institution: Thomas Mann Gymnasium Munich
     date_start: 2009-09-01
     date_end: 2017-07-31
     summary: |
-      Completed German Abitur with strong foundation in sciences and mathematics.
+      German Abitur with strong foundation in sciences and mathematics.
 
 work:
   - position: GIS Analyst
@@ -78,115 +110,159 @@ work:
     date_start: 2023-01-01
     date_end: 2023-12-31
     summary: |
-      • Database administration and management
-      • Geodata management and analysis
-      • GIS analysis for energy sector applications
-      • Spatial data processing and visualization
+      • Database administration and geodata management for renewable energy projects
+      • Spatial analysis for optimal site selection and environmental impact assessment  
+      • Development of automated GIS workflows for energy infrastructure planning
+      • Collaboration with environmental consultants and project developers
+      
   - position: Project Manager
-    company_name: Tarmac eV
+    company_name: Tarmac eV Music Festival
     company_url: ''
     company_logo: ''
     date_start: 2019-01-01
     date_end: ''
     summary: |
-      • Organization of various components of music festival including technical and administrative aspects
-      • Planning and construction of lighting technology systems
-      • Coordination of multiple project stakeholders and timelines
-  - position: Various Positions
-    company_name: Multiple Employers
+      • Organization and coordination of large-scale music festival (1000+ attendees)
+      • Technical project management including lighting systems and stage construction
+      • Budget planning and vendor coordination across multiple project phases
+      • Team leadership and volunteer coordination
+      
+  - position: Environmental Educator & Sports Instructor
+    company_name: Various Organizations
     company_url: ''
     company_logo: ''
     date_start: 2017-01-01
     date_end: ''
     summary: |
-      Diverse work experience across multiple cities (Munich, Potsdam, Halle, Leipzig, Vienna) including:
-      • Gastronomy and retail trade
-      • Climbing gym instruction and management
-      • Children's education and sports courses
-      • Engineering courses for adults and children
+      Multi-city experience (Munich, Potsdam, Halle, Leipzig, Vienna) including:
+      • Climbing gym instruction and safety training
+      • Environmental education programs for children and adults
+      • Sports course development and delivery
+      • Customer service in gastronomy and retail
 
-# Skills
+# Skills - reorganized to match academic website style
 skills:
-  - name: Technical Skills
+  - name: Technical & Analytical
     items:
-      - name: GIS Software (QGIS & ESRI)
-        description: 'Advanced proficiency in geographic information systems'
+      - name: GIS & Spatial Analysis
+        description: 'QGIS, ESRI ArcGIS, spatial modeling, geodatabase management'
         percent: 90
         icon: map
-      - name: Python & R Programming
-        description: 'Data analysis and modeling'
+      - name: Programming & Data Science  
+        description: 'Python, R, SQL, statistical analysis, data visualization'
         percent: 85
         icon: code-bracket
-      - name: Database Management
-        description: 'Relational databases and data administration'
+      - name: Environmental Modeling
+        description: 'Species distribution modeling, habitat assessment, impact analysis'
         percent: 80
-        icon: circle-stack
-      - name: Data Analysis & Modeling
-        description: 'Statistical analysis and predictive modeling'
-        percent: 85
         icon: chart-bar
-  - name: Professional Skills
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Project Management
-        description: 'Planning and executing complex projects'
-        percent: 85
-        icon: clipboard-document-list
-      - name: Problem-Solving
-        description: 'Analytical approach to environmental challenges'
-        percent: 90
-        icon: light-bulb
-      - name: Communication
-        description: 'Strong written and verbal communication skills'
-        percent: 85
-        icon: chat-bubble-left-right
-  - name: Personal Interests
+        
+  - name: Project & Communication
     color: '#28a745'
     color_border: '#34ce57'
     items:
-      - name: Outdoor Adventures
-        description: 'Hiking, climbing, and outdoor sports'
-        percent: 95
-        icon: person-simple-walk
-      - name: Music & Events
-        description: 'Festival organization and technical production'
-        percent: 80
-        icon: musical-note
-      - name: Travel & Culture
-        description: 'International experience and cultural exchange'
+      - name: Project Management
+        description: 'Agile methodologies, team coordination, stakeholder management'
         percent: 85
-        icon: globe-europe-africa
+        icon: clipboard-document-list
+      - name: Scientific Communication
+        description: 'Technical writing, data presentation, multilingual communication'
+        percent: 85
+        icon: presentation-chart-line
+      - name: Field Methods
+        description: 'Environmental sampling, GPS surveying, field data collection'
+        percent: 80
+        icon: beaker
+
+# Software proficiency (detailed breakdown)
+software:
+  - category: "GIS & Mapping"
+    tools: 
+      - "QGIS (Advanced)"
+      - "ArcGIS Pro (Advanced)" 
+      - "PostGIS (Intermediate)"
+      - "Google Earth Engine (Intermediate)"
+  - category: "Programming & Analysis"
+    tools:
+      - "Python (Pandas, GeoPandas, Matplotlib)"
+      - "R (tidyverse, sf, leaflet)"
+      - "SQL (PostgreSQL, SQLite)"
+      - "Git version control"
+  - category: "Productivity & Documentation"
+    tools:
+      - "MS Office Suite (Expert)"
+      - "LaTeX document preparation"
+      - "Markdown & R Markdown"
+      - "Project management tools (Asana, Trello)"
 
 languages:
   - name: German
     percent: 100
-  - name: English
+    level: "Native"
+  - name: English  
     percent: 95
+    level: "Fluent (C2)"
   - name: French
     percent: 60
+    level: "Intermediate (B1)"
   - name: Portuguese
     percent: 40
+    level: "Basic (A2)"
 
-# Contact Information
+# Projects section (similar to Edo's featured work)
+featured_projects:
+  - title: "Interactive Species Distribution App"
+    description: |
+      Welcome! This is my first major GIS project, a collection of interactive tools designed to support environmental consultants in biodiversity monitoring and species distribution mapping. These applications:
+      • Allow users to upload and explore environmental datasets
+      • Generate interactive maps using leaflet and QGIS
+      • Provide accessible visualization of habitat suitability models
+      • Support decision-making for conservation planning
+    url: "/project/species-distribution/"
+    tags: ["GIS", "Python", "Conservation"]
+    
+  - title: "Renewable Energy Site Assessment"
+    description: |
+      A comprehensive GIS analysis project for NOTUS energy, focusing on optimal site selection for renewable energy infrastructure. The project involved multi-criteria spatial analysis considering environmental constraints, grid connectivity, and land use compatibility.
+    url: "/project/renewable-energy-gis/"
+    tags: ["GIS", "Energy", "Spatial Analysis"]
+    
+  - title: "Alpine Ecosystem Monitoring"
+    description: |
+      Field-based research project documenting ecosystem changes in Alpine environments. Utilizing GPS surveying, environmental sensors, and remote sensing data to track vegetation patterns and climate impacts in mountain regions.
+    url: "/project/alpine-monitoring/"
+    tags: ["Fieldwork", "Climate", "Ecology"]
+
+# Contact information
 contact:
-  - name: Phone (Austria)
-    value: "+43 678 7823457"
-    icon: phone
-  - name: Address
-    value: "Lacknergasse 51/8, 1170 Vienna, Austria"
-    icon: map-pin
-  - name: Email
-    value: "edwin.pohl.ep@gmail.com"
-    icon: envelope
+  address: "Lacknergasse 51/8, 1170 Vienna, Austria"
+  phone: "+43 678 7823457"
+  email: "edwin.pohl.ep@gmail.com"
 
-# Awards and Certifications (if any - can be added later)
-awards: []
-
-# Additional sections
+# Additional academic-style sections
 certifications:
-  - title: GIS Software Certification
-    description: "Advanced certification in QGIS and ESRI products"
-  - title: MS Office Suite
-    description: "Proficient in all Microsoft Office applications"
+  - title: "QGIS Certified User"
+    issuer: "QGIS Project"
+    date: "2023"
+  - title: "Environmental Impact Assessment"
+    issuer: "BOKU University"
+    date: "2024"
+
+# Recent blog posts / updates (placeholder structure)
+recent_posts:
+  - title: "Getting Started with PostGIS for Environmental Data"
+    date: "2024-03-15"
+    excerpt: "A beginner's guide to managing spatial environmental data in PostgreSQL..."
+    url: "/post/postgis-environmental-data/"
+  - title: "Field Methods for Biodiversity Surveys"  
+    date: "2024-02-20"
+    excerpt: "Essential techniques and tools for conducting effective field surveys..."
+    url: "/post/biodiversity-survey-methods/"
+    
+# Awards and recognition (if any)
+awards:
+  - title: "Outstanding Project Award"
+    awarder: "Martin Luther University Halle"
+    date: "2023"
+    description: "Recognition for Bachelor thesis on spatial forest biodiversity analysis"
 ---
