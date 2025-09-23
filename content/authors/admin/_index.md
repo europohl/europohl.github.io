@@ -23,143 +23,170 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Natural Resource Manager
+role: Natural Resource Manager & GIS Analyst
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: BOKU University
+  - name: BOKU University Vienna
     url: https://boku.ac.at/en/
+  - name: Lincoln University New Zealand
+    url: https://www.lincoln.ac.nz/
 
 # Social network links
-# Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
     url: 'mailto:edwin.pohl.ep@gmail.com'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/AlexAIResearch
-  - icon: brands/github
-    url: https://github.com/eddimurphi
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/edwin-pohl-88a789325/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=alexjohnson
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
 
 interests:
   - Geographical Information Systems (GIS)
-  - Data Analysis
-  - Spatial Modelling
-  - Machine Learning
-  - Interface between nature and technology
+  - Data Analysis and Modeling
+  - Natural Resource Management
+  - Ecological Engineering
+  - Environmental Solutions
+  - Database Administration
+  - Outdoor Adventures and Sports
 
 education:
-  # - area: PhD Computer Science (AI Focus)
-  #  institution: Stanford University
-  #  date_start: 2015-09-01
-  #  date_end: 2019-06-30
-  #  summary: |
-  #    Thesis on _Scaling Laws for Neural Language Models_. Supervised by Prof. Andrew Ng. Published 5 papers in NeurIPS and ICML, with 2 best paper awards.
-  #  button:
-  #    text: 'Read Thesis'
-  #    url: 'https://example.com/thesis.pdf'
   - area: MSc Natural Resource Management and Ecological Engineering
-    institution: BOKU University of Life Sciences and Lincoln University
+    institution: BOKU University Vienna & Lincoln University New Zealand
     date_start: 2023-10-01
+    date_end: ''
     summary: |
-      GPA: 4.0/4.0
-      Specialized in machine learning and robotics.
-  - area: BS Computer Science
-    institution: MIT
+      Currently pursuing joint Master's degree focusing on environmental challenges and innovative solutions.
+      Specialized in GIS applications and ecological engineering approaches.
+  - area: Bachelor of Natural Resource Management
+    institution: Martin Luther University Halle
+    date_start: 2018-09-01
+    date_end: 2023-07-31
+    summary: |
+      Comprehensive education in natural resource management with focus on sustainable practices and environmental stewardship.
+  - area: Secondary School (Abitur)
+    institution: Thomas Mann Gymnasium Munich
     date_start: 2009-09-01
-    date_end: 2013-05-31
+    date_end: 2017-07-31
     summary: |
-      GPA: 3.9/4.0
-      Minored in Mathematics. President of AI Club.
+      Completed German Abitur with strong foundation in sciences and mathematics.
 
 work:
-  - position: Senior AI Research Scientist
-    company_name: Meta AI
-    company_url: 'https://ai.meta.com/'
+  - position: GIS Analyst
+    company_name: NOTUS energy
+    company_url: ''
     company_logo: ''
-    date_start: 2020-01-01
-    date_end: ''
-    summary: |2-
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models. 50+ citations in 3 years.
-  - position: AI Research Intern
-    company_name: OpenAI
-    company_url: 'https://openai.com/'
-    company_logo: ''
-    date_start: 2019-06-01
-    date_end: 2019-12-31
+    date_start: 2023-01-01
+    date_end: 2023-12-31
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      • Database administration and management
+      • Geodata management and analysis
+      • GIS analysis for energy sector applications
+      • Spatial data processing and visualization
+  - position: Project Manager
+    company_name: Tarmac eV
+    company_url: ''
+    company_logo: ''
+    date_start: 2019-01-01
+    date_end: ''
+    summary: |
+      • Organization of various components of music festival including technical and administrative aspects
+      • Planning and construction of lighting technology systems
+      • Coordination of multiple project stakeholders and timelines
+  - position: Various Positions
+    company_name: Multiple Employers
+    company_url: ''
+    company_logo: ''
+    date_start: 2017-01-01
+    date_end: ''
+    summary: |
+      Diverse work experience across multiple cities (Munich, Potsdam, Halle, Leipzig, Vienna) including:
+      • Gastronomy and retail trade
+      • Climbing gym instruction and management
+      • Children's education and sports courses
+      • Engineering courses for adults and children
 
 # Skills
-# Add your own SVG icons to `assets/media/icons/`
 skills:
   - name: Technical Skills
     items:
-      - name: Python & PyTorch
-        description: ''
-        percent: 95
-        icon: code-bracket
-      - name: Machine Learning
-        description: ''
-        percent: 100
-        icon: chart-bar
-      - name: Cloud Computing (AWS/GCP)
-        description: ''
+      - name: GIS Software (QGIS & ESRI)
+        description: 'Advanced proficiency in geographic information systems'
+        percent: 90
+        icon: map
+      - name: Python & R Programming
+        description: 'Data analysis and modeling'
         percent: 85
-        icon: cloud
-  - name: Hobbies
+        icon: code-bracket
+      - name: Database Management
+        description: 'Relational databases and data administration'
+        percent: 80
+        icon: circle-stack
+      - name: Data Analysis & Modeling
+        description: 'Statistical analysis and predictive modeling'
+        percent: 85
+        icon: chart-bar
+  - name: Professional Skills
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking in the Rockies
-        description: ''
-        percent: 80
-        icon: person-simple-walk
-      - name: Building Custom PCs
-        description: ''
+      - name: Project Management
+        description: 'Planning and executing complex projects'
+        percent: 85
+        icon: clipboard-document-list
+      - name: Problem-Solving
+        description: 'Analytical approach to environmental challenges'
         percent: 90
-        icon: cpu-chip
-      - name: Sci-Fi Reading
-        description: ''
-        percent: 70
-        icon: book-open
+        icon: light-bulb
+      - name: Communication
+        description: 'Strong written and verbal communication skills'
+        percent: 85
+        icon: chat-bubble-left-right
+  - name: Personal Interests
+    color: '#28a745'
+    color_border: '#34ce57'
+    items:
+      - name: Outdoor Adventures
+        description: 'Hiking, climbing, and outdoor sports'
+        percent: 95
+        icon: person-simple-walk
+      - name: Music & Events
+        description: 'Festival organization and technical production'
+        percent: 80
+        icon: musical-note
+      - name: Travel & Culture
+        description: 'International experience and cultural exchange'
+        percent: 85
+        icon: globe-europe-africa
 
 languages:
-  - name: English
+  - name: German
     percent: 100
-  - name: Spanish
-    percent: 50
+  - name: English
+    percent: 95
+  - name: French
+    percent: 60
+  - name: Portuguese
+    percent: 40
 
-# Awards.
-#   Add/remove as many awards below as you like.
-#   Only `title`, `awarder`, and `date` are required.
-#   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
-awards:
-  - title: Best Paper Award
-    url: https://neurips.cc/
-    date: '2022-12-01'
-    awarder: NeurIPS
-    icon: hero/trophy
-    summary: |
-      Awarded for groundbreaking work on efficient training of large models.
-  - title: AI Innovation Grant
-    url: https://www.nsf.gov/
-    date: '2021-06-15'
-    awarder: National Science Foundation
-    icon: hero/currency-dollar
-    summary: |
-      $500,000 grant for research in ethical AI development.
-  - title: Outstanding PhD Thesis
-    url: https://www.stanford.edu/
-    date: '2019-06-30'
-    awarder: Stanford University
-    icon: hero/academic-cap
-    summary: |
-      Recognized for contributions to scaling laws in deep learning.
+# Contact Information
+contact:
+  - name: Phone (Austria)
+    value: "+43 678 7823457"
+    icon: phone
+  - name: Address
+    value: "Lacknergasse 51/8, 1170 Vienna, Austria"
+    icon: map-pin
+  - name: Email
+    value: "edwin.pohl.ep@gmail.com"
+    icon: envelope
+
+# Awards and Certifications (if any - can be added later)
+awards: []
+
+# Additional sections
+certifications:
+  - title: GIS Software Certification
+    description: "Advanced certification in QGIS and ESRI products"
+  - title: MS Office Suite
+    description: "Proficient in all Microsoft Office applications"
 ---
