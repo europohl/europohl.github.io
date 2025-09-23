@@ -55,7 +55,7 @@ interests:
   - Interface between nature and technology
 
 education:
-  - area: PhD Computer Science (AI Focus)
+ # - area: PhD Computer Science (AI Focus)
     institution: Stanford University
     date_start: 2015-09-01
     date_end: 2019-06-30
@@ -64,10 +64,9 @@ education:
     button:
       text: 'Read Thesis'
       url: 'https://example.com/thesis.pdf'
-  - area: MS Computer Science
-    institution: Carnegie Mellon University
-    date_start: 2013-09-01
-    date_end: 2015-05-31
+  - area: MSc Natural Resource Management and Ecological Engineering
+    institution: BOKU University of Life Sciences and Lincoln University
+    date_start: 2023-10-01
     summary: |
       GPA: 4.0/4.0
 
