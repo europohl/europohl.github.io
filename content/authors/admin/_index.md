@@ -243,10 +243,10 @@ contact:
 certifications:
   - title: "QGIS Certified User"
     issuer: "QGIS Project"
-    date: "2023"
+    date: "2023-06-01"
   - title: "Environmental Impact Assessment"
     issuer: "BOKU University"
-    date: "2024"
+    date: "2024-03-01"
 
 # Recent blog posts / updates (placeholder structure)
 recent_posts:
@@ -263,6 +263,6 @@ recent_posts:
 awards:
   - title: "Outstanding Project Award"
     awarder: "Martin Luther University Halle"
-    date: "2023"
+    date: "2023-07-15"
     description: "Recognition for Bachelor thesis on spatial forest biodiversity analysis"
 ---
