@@ -36,15 +36,15 @@ profiles:
   - icon: at-symbol
     url: 'mailto:edwin.pohl.ep@gmail.com'
     label: E-mail Me
-#  - icon: brands/x
+  - icon: brands/x
     url: https://twitter.com/AlexAIResearch
   - icon: brands/github
     url: https://github.com/eddimurphi
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/edwin-pohl-88a789325/
-#  - icon: academicons/google-scholar
+  - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?user=alexjohnson
-#  - icon: academicons/orcid
+  - icon: academicons/orcid
     url: https://orcid.org/0000-0002-1825-0097
 
 interests:
@@ -55,21 +55,20 @@ interests:
   - Interface between nature and technology
 
 education:
- # - area: PhD Computer Science (AI Focus)
-    institution: Stanford University
-    date_start: 2015-09-01
-    date_end: 2019-06-30
-    summary: |
-      Thesis on _Scaling Laws for Neural Language Models_. Supervised by Prof. Andrew Ng. Published 5 papers in NeurIPS and ICML, with 2 best paper awards.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com/thesis.pdf'
+  # - area: PhD Computer Science (AI Focus)
+  #  institution: Stanford University
+  #  date_start: 2015-09-01
+  #  date_end: 2019-06-30
+  #  summary: |
+  #    Thesis on _Scaling Laws for Neural Language Models_. Supervised by Prof. Andrew Ng. Published 5 papers in NeurIPS and ICML, with 2 best paper awards.
+  #  button:
+  #    text: 'Read Thesis'
+  #    url: 'https://example.com/thesis.pdf'
   - area: MSc Natural Resource Management and Ecological Engineering
     institution: BOKU University of Life Sciences and Lincoln University
     date_start: 2023-10-01
     summary: |
       GPA: 4.0/4.0
-
       Specialized in machine learning and robotics.
   - area: BS Computer Science
     institution: MIT
@@ -77,7 +76,6 @@ education:
     date_end: 2013-05-31
     summary: |
       GPA: 3.9/4.0
-
       Minored in Mathematics. President of AI Club.
 
 work:
@@ -165,5 +163,3 @@ awards:
     summary: |
       Recognized for contributions to scaling laws in deep learning.
 ---
-
-Alex Johnson is a Senior AI Research Scientist at Meta AI, where he leads groundbreaking work on large language models and multimodal systems. His research has been published in top conferences like NeurIPS and ICML, with over 10,000 citations. Alex is passionate about pushing the boundaries of AI while ensuring ethical development. Outside of work, he enjoys hiking in the Rockies, building custom PCs, and mentoring the next generation of AI talent.
