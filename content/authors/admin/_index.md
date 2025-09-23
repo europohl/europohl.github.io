@@ -36,9 +36,9 @@ profiles:
   - icon: at-symbol
     url: 'mailto:edwin.pohl.ep@gmail.com'
     label: E-mail Me
-  - icon: brands/x
-#    url: https://twitter.com/AlexAIResearch
-#  - icon: brands/github
+#  - icon: brands/x
+    url: https://twitter.com/AlexAIResearch
+  - icon: brands/github
     url: https://github.com/eddimurphi
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/edwin-pohl-88a789325/
