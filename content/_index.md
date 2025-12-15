@@ -41,51 +41,51 @@ sections:
     design:
       columns: '1'
 
-  # 3. PUBLIKATIONEN (Falls vorhanden)
-  - block: collection
-    id: papers
-    content:
-      title: Featured Projects & Publications
-      filters:
-        folders:
-          - publications
-        featured_only: true
-    design:
-      view: article-grid
-      columns: 2
+  # # 3. PUBLIKATIONEN (Falls vorhanden)
+  # - block: collection
+  #   id: papers
+  #   content:
+  #     title: Featured Projects & Publications
+  #     filters:
+  #       folders:
+  #         - publications
+  #       featured_only: true
+  #   design:
+  #     view: article-grid
+  #     columns: 2
 
-  # 4. VORTRÄGE (Kannst du auskommentieren mit #, wenn leer)
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - events
-    design:
-      view: card
+  # # 4. VORTRÄGE (Kannst du auskommentieren mit #, wenn leer)
+  # - block: collection
+  #   id: talks
+  #   content:
+  #     title: Recent & Upcoming Talks
+  #     filters:
+  #       folders:
+  #         - events
+  #   design:
+  #     view: card
 
-  # 5. NEWS / BLOG (Kannst du auskommentieren mit #, wenn leer)
-  - block: collection
-    id: news
-    content:
-      title: Recent News
-      subtitle: ''
-      text: ''
-      page_type: blog
-      count: 5
-      filters:
-        author: ''
-        category: ''
-        tag: ''
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ''
-      offset: 0
-      order: desc
-    design:
-      view: card
-      spacing:
-        padding: [0, 0, 0, 0]
+  # # 5. NEWS / BLOG (Kannst du auskommentieren mit #, wenn leer)
+  # - block: collection
+  #   id: news
+  #   content:
+  #     title: Recent News
+  #     subtitle: ''
+  #     text: ''
+  #     page_type: blog
+  #     count: 5
+  #     filters:
+  #       author: ''
+  #       category: ''
+  #       tag: ''
+  #       exclude_featured: false
+  #       exclude_future: false
+  #       exclude_past: false
+  #       publication_type: ''
+  #     offset: 0
+  #     order: desc
+  #   design:
+  #     view: card
+  #     spacing:
+  #       padding: [0, 0, 0, 0]
 ---
