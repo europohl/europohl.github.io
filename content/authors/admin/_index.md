@@ -203,10 +203,10 @@ languages:
     percent: 95
     level: "Fluent (C2)"
   - name: French
-    percent: 60
+    percent: 40
     level: "Intermediate (B1)"
   - name: Portuguese
-    percent: 40
+    percent: 20
     level: "Basic (A2)"
 
 # Projects section (similar to Edo's featured work)
@@ -233,36 +233,36 @@ featured_projects:
     url: "/project/alpine-monitoring/"
     tags: ["Fieldwork", "Climate", "Ecology"]
 
-# Contact information
-contact:
-  address: "Lacknergasse 51/8, 1170 Vienna, Austria"
-  phone: "+43 678 7823457"
-  email: "edwin.pohl.ep@gmail.com"
+# # Contact information
+# contact:
+#   address: "Lacknergasse 51/8, 1170 Vienna, Austria"
+#   phone: "+43 678 7823457"
+#   email: "edwin.pohl.ep@gmail.com"
 
-# Additional academic-style sections
-certifications:
-  - title: "QGIS Certified User"
-    issuer: "QGIS Project"
-    date: "2023-06-01"
-  - title: "Environmental Impact Assessment"
-    issuer: "BOKU University"
-    date: "2024-03-01"
+# # Additional academic-style sections
+# certifications:
+#   - title: "QGIS Certified User"
+#     issuer: "QGIS Project"
+#     date: "2023-06-01"
+#   - title: "Environmental Impact Assessment"
+#     issuer: "BOKU University"
+#     date: "2024-03-01"
 
-# Recent blog posts / updates (placeholder structure)
-recent_posts:
-  - title: "Getting Started with PostGIS for Environmental Data"
-    date: "2024-03-15"
-    excerpt: "A beginner's guide to managing spatial environmental data in PostgreSQL..."
-    url: "/post/postgis-environmental-data/"
-  - title: "Field Methods for Biodiversity Surveys"  
-    date: "2024-02-20"
-    excerpt: "Essential techniques and tools for conducting effective field surveys..."
-    url: "/post/biodiversity-survey-methods/"
+# # Recent blog posts / updates (placeholder structure)
+# recent_posts:
+#   - title: "Getting Started with PostGIS for Environmental Data"
+#     date: "2024-03-15"
+#     excerpt: "A beginner's guide to managing spatial environmental data in PostgreSQL..."
+#     url: "/post/postgis-environmental-data/"
+#   - title: "Field Methods for Biodiversity Surveys"  
+#     date: "2024-02-20"
+#     excerpt: "Essential techniques and tools for conducting effective field surveys..."
+#     url: "/post/biodiversity-survey-methods/"
     
-# Awards and recognition (if any)
-awards:
-  - title: "Outstanding Project Award"
-    awarder: "Martin Luther University Halle"
-    date: "2023-07-15"
-    description: "Recognition for Bachelor thesis on spatial forest biodiversity analysis"
----
+# # Awards and recognition (if any)
+# awards:
+#   - title: "Outstanding Project Award"
+#     awarder: "Martin Luther University Halle"
+#     date: "2023-07-15"
+#     description: "Recognition for Bachelor thesis on spatial forest biodiversity analysis"
+# ---
