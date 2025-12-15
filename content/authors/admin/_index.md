@@ -50,7 +50,7 @@ profiles:
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/edwin-pohl-88a789325/
   - icon: brands/github
-    url: https://github.com/eddimurphi
+    url: https://github.com/europohl
   - icon: phone
     url: 'tel:+4367878234567'
     label: '+43 678 7823457'
